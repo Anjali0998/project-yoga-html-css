@@ -1,12 +1,12 @@
 body {
     padding:0;
-    margin: 4cm;
-    background-color: grey;
+    margin: 0 4cm;
+    background-color: rgb(82, 74, 74);
 }
 
 .project-heading {
     text-align: center;
-    color: maroon;
+    color: rgb(180, 57, 57);
     font-family: unset;
     font-size: 1.2cm;
     -webkit-text-stroke: black;
@@ -21,12 +21,17 @@ body {
 
 .project-heading2 {
     font-size: 1cm;
+    color: coral;
     margin: 0.5cm;
+    -webkit-text-stroke-color:black;
+    -webkit-text-stroke-width: thin;
 }
 
 .project-text {
     font-size: 0.7cm;
-    -webkit-text-stroke-color: black;
+    color:rgb(70, 185, 185);
+    -webkit-text-stroke-color: rgb(49, 21, 21)
+    -webkit-text-stroke-width: thick;
 }
 
 .project-text2 {
@@ -38,9 +43,17 @@ body {
 .project-heading4 {
     font-size: 0.8cm;
     margin:0.5cm;
-    color: maroon;
--webkit-text-stroke-color: black;  
--webkit-text-stroke-width: thin;  
+    color: rgb(160, 9, 9);
+-webkit-text-stroke-color: rgb(10, 6, 6);  
+-webkit-text-stroke-width: thin;
+
+}
+
+.project-heading5 {
+    font-size: 3cm;
+    color: red;
+    -webkit-text-stroke-color: mintcream;
+    -webkit-text-stroke-width: thin;
 }
 
 .project-image2 {
@@ -55,18 +68,10 @@ body {
     display: grid;
 }
 
-.project-heading10 {
-    font-size: 1cm;
-    color: red;
-    -webkit-text-stroke: mintcream;
-    -webkit-text-stroke-width: thin;
-}
-
 .footer {
     text-align: center;
-    color:black;
+    color:rgb(95, 31, 31);
     background-color: tomato;
     font-size: 0.6cm;
-
-
+    bottom: 0;
 }
